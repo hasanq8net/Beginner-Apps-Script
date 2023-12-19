@@ -1,0 +1,28 @@
+function arrayTesting3() {
+  
+  // create an array
+  const numbers = [3,4,5];
+  /* console.log(numbers);
+  console.log(...numbers);
+
+  console.log([1,2,numbers,6]);
+  console.log([1,2,...numbers,6]); */
+
+  // destructuring
+  const regions = [
+    ['North',50],
+    ['East',90],
+    ['South', 60],
+    ['West',40]
+  ];
+  console.log(regions);
+
+  const [north, [east,value], south, west] = regions;
+  console.log(north);
+  console.log(east);
+  console.log(value);
+  console.log(south);
+  console.log(west);
+
+}
+
