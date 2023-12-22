@@ -1,0 +1,36 @@
+function loopTesting7() {
+  
+  const regions = ['North', 'East', 'South', 'West'];
+
+  // for loop
+  /* for (let i=0 ; i < regions.length ; i++) {
+    if (regions[i] === 'East') {
+      //continue; // skipping specific cases
+      break; // stops the loop
+    }
+    console.log(regions[i]);
+  } */
+
+  // for of loop
+  /* for (const region of regions) {
+    console.log(region);
+  } */
+
+  // while
+  let x = 10;
+
+  /* while (x > 0) {
+    console.log(x);
+    x--; // x = x - 1;
+  } */
+
+  // do while
+  let y = 0;
+
+  do {
+    console.log(y);
+    y++;
+  } while (y < 50);
+
+}
+
