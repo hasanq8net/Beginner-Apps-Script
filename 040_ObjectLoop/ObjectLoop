@@ -1,0 +1,58 @@
+function loopTesting8() {
+  
+  const bike = {
+    id: 'xyz123',
+    name: 'Gravel Max',
+    color: 'Red',
+    price: 1399,
+    size: 'medium'
+  };
+  console.log(bike);
+
+  // for...in loop
+  // iterates over the object with the keys
+  for (key in bike) {
+    console.log(key);
+    console.log(bike[key]);
+  }
+
+  // Object.keys() -- returns an array of keys
+  const keys = Object.keys(bike);
+  /* console.log(keys);
+  console.log(keys.forEach(key => console.log(key))); */
+
+  // Object.values() - array values
+  const values = Object.values(bike);
+  //console.log(values);
+
+  // Object.entries() - array entries
+  const entries = Object.entries(bike);
+  console.log(entries);
+  
+  entries.forEach(row => {
+    console.log(row);
+    console.log(row[0]);
+    console.log(row[1]);
+  });
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
